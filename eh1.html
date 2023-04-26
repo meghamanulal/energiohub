@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="navbar">
+        <a href="#default" id="logo">CompanyLogo</a>
+        <div id="navbar-right">
+          <a class="active" href="C:\Users\megha\OneDrive\Desktop\ehub\eh\eh1.html">Home</a>
+          <a href="C:\Users\megha\OneDrive\Desktop\about.html">Contact</a>
+          <a href="#about">About</a>
+        </div>
+      </div>
+      
+      <div style="margin-top:260px;padding:15px 15px 2500px;font-size:30px">
+        <table>
+            <tr>
+                <td>
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                         <div class="flip-card-front">
+                        <img src="C:\Users\megha\Downloads\ehimage.jpg">
+                        </div>
+                        <div class="flip-card-back">
+                        <p style="text-align: center;margin-top: 40%;">DAILY MONITOR</p>
+                        </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                         <div class="flip-card-front">
+                          <img src="C:\Users\megha\Downloads\eh.png" >
+                        </div>
+                        <div class="flip-card-back">
+                        <p style="text-align: center;margin-top: 40%;">BOOK ELECTRICIAN</p> 
+                        </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                         <div class="flip-card-front">
+                          <img src="C:\Users\megha\Downloads\eh.png">
+                        </div>
+                        <div class="flip-card-back">
+                         
+                        <p style="text-align: center;margin-top: 40%;">SHOPPING</p>
+                        </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                         <div class="flip-card-front">
+                          <img src="C:\Users\megha\Downloads\eh.png">
+                        </div>
+                        <div class="flip-card-back">
+                        <p style="text-align: center;margin-top: 40%;">BILL PAYMENT</p> 
+                        </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+        
+      <script>
+      // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+          document.getElementById("navbar").style.padding = "30px 10px";
+          document.getElementById("logo").style.fontSize = "25px";
+        } else {
+          document.getElementById("navbar").style.padding = "80px 10px";
+          document.getElementById("logo").style.fontSize = "35px";
+        }
+      }
+      </script>
+
+
+</body>
+</html>
